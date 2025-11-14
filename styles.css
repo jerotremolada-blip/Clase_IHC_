@@ -1,0 +1,155 @@
+.topheader {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.Menu-Horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.Menu-Horizontal li a {
+  text-decoration: none;
+  color: Black;
+  display: block;
+  padding: 15px 20px;
+}
+.Menu-Vertical {
+  display: none;
+  padding: 0;
+  position: absolute;
+  list-style: none;
+  width: 200px;
+}
+.Menu-Horizontal li a:hover {
+  color: red;
+}
+.Menu-Horizontal li:hover .Menu-Vertical {
+  display: block;
+}
+
+.Menu-Horizontal li:hover .Menu-Vertical {
+  display: block;
+}
+/*SECCION BANCA*/
+.seccion banca {
+  padding: 60px 20px;
+  background-color: whitesmoke;
+}
+.div-gral-banca {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+.div-banca-texto {
+  flex: 1;
+  margin-top: 120px;
+}
+.div-banca-texto h2 {
+  color: red (4, 4, 247);
+  margin-bottom: 15px;
+}
+.div-banca-texto p {
+  color: brown (23, 22, 22);
+  line-height: 1.8;
+  text-align: justify;
+}
+.div-banca-img {
+  flex: 1;
+}
+.div-banca-img img {
+  width: 100%;
+  max-width: 500px;
+}
+/*SECCION PROMO*/
+.seccion promo {
+  padding: 60px 20px;
+  background-color: whitesmoke;
+}
+.div-gral-promo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+.div-promo-texto {
+  flex: 1;
+}
+.div-promo-texto h2 {
+  color: red (4, 4, 247);
+  margin-bottom: 15px;
+}
+.div-promo-texto p {
+  color: brown (23, 22, 22);
+  line-height: 1.8;
+  text-align: justify;
+}
+.div-promo-video {
+  flex: 1;
+}
+.div-promo-video img {
+  width: 100%;
+  max-width: 500px;
+}
+/*SECCION FORMULARIO*/
+.seccion-formulario {
+  background-color: aqua;
+  padding: 40px;
+  border 3px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.div-cont-formulario{
+  background-color: pink;
+  padding: 30px;
+  border: 2px solid blueviolet;
+  width: 100%;
+  max-width: 500px;
+}
+.campo{
+  background-color:chocolate;
+  padding: 15px;
+  border: 1px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.formulario label{
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: whitesmoke;
+}
+/*input:text-select*/
+.formulario input[type="text"], .formulario select{
+  width: 100%;
+  padding: 6px;
+  border: 1px solid burlywood;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.lista-checkbox,
+.lista-radio{
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  border: 1px;
+  background-color: brown;
+}
+.formulario button{
+  background-color: violet;
+  color: green;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
